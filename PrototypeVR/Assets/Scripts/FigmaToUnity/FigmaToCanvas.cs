@@ -96,13 +96,9 @@ public class FigmaToCanvas : MonoBehaviour
 
             string transitionID = hotspot.transition.parameters[0];
 
+            // For each invButton, set onclick to renderframe of id of frame transition goes to
             button.onClick.AddListener(delegate { RenderFrame(transitionID); });
-            //button.onClick.AddListener(delegate { printButtonPressed(transitionID); });
-
-            //print(string.Format("Frame: {4}, hotspot: {5}, x: {0}, y: {1}, w: {2}, h: {3}", hotspot.x, hotspot.y, hotspot.w, hotspot.h, frame.name, hotspot.name));
         }
-
-        // For each invButton, set onclick to renderframe of id of frame transition goes to
     }
 
     private FrameData GetFrame(string id)
@@ -115,11 +111,6 @@ public class FigmaToCanvas : MonoBehaviour
             }
         }
         return null;
-    }
-
-    void sayhi()
-    {
-        Debug.Log("HIIII");
     }
 
     public void printButtonPressed(string button)
