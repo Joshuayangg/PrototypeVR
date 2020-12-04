@@ -1,0 +1,45 @@
+{
+    "startingFrame": "Start Frame",
+    "frames": [
+        {
+            "id": "1:1",
+            "name": "Start Frame",
+            "width": 1920,
+            "height": 1080,
+            "hotspots": [
+                {
+                    "name": "Button 3",
+                    "x": 114,
+                    "y": 605,
+                    "w": 700,
+                    "h": 172,
+                    "transition": {
+                        "eventType": "onClick",
+                        "actionType": "navigateTo",
+                        "parameters": ["1:2"]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1:2",
+            "name": "Check Balance",
+            "width": 1920,
+            "height": 1080,
+            "hotspots": [
+                {
+                    "name": "Button 4",
+                    "x": 106,
+                    "y": 858,
+                    "w": 296,
+                    "h": 172,
+                    "transition": {
+                        "eventType": "onClick",
+                        "actionType": "navigateTo",
+                        "parameters": ["1:1"]
+                    }
+                }
+            ]
+        }
+    ]
+}
