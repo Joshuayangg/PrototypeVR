@@ -26,6 +26,7 @@ public class HotspotData
     public int y;
     public int w;
     public int h;
+    public bool visible;
     public TransitionData transition;
 }
 

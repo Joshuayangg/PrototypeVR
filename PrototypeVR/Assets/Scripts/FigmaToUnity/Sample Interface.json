@@ -13,6 +13,7 @@
                     "y": 605,
                     "w": 700,
                     "h": 172,
+                    "visible": true,
                     "transition": {
                         "eventType": "onClick",
                         "actionType": "navigateTo",
@@ -33,6 +34,7 @@
                     "y": 858,
                     "w": 296,
                     "h": 172,
+                    "visible": true,
                     "transition": {
                         "eventType": "onClick",
                         "actionType": "navigateTo",
@@ -43,3 +45,4 @@
         }
     ]
 }
+

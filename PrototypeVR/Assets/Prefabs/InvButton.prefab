@@ -91,6 +91,8 @@ GameObject:
   - component: {fileID: 4638477932227812825}
   - component: {fileID: 4764255854657331812}
   - component: {fileID: 1329195193480756222}
+  - component: {fileID: 6095369552537475972}
+  - component: {fileID: 7662183274527408623}
   m_Layer: 0
   m_Name: InvButton
   m_TagString: Untagged
@@ -211,3 +213,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!65 &6095369552537475972
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5418531248152527048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 60, z: 1}
+  m_Center: {x: 50, y: -30, z: 0}
+--- !u!114 &7662183274527408623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5418531248152527048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623ac40c0a8e0644c8ea8dc0e20356ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
