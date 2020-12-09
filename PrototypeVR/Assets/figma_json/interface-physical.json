@@ -1,0 +1,399 @@
+{
+  "startingFrame": "home-physical",
+  "frames": [
+    {
+      "id": "169:592",
+      "name": "map-physical",
+      "width": 1401,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button8",
+          "x": 1203,
+          "y": 916,
+          "w": 198,
+          "h": 124,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button1",
+          "x": 0,
+          "y": 486,
+          "w": 59,
+          "h": 123,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:645"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:645",
+      "name": "line-physical",
+      "width": 1379,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button8",
+          "x": 1184,
+          "y": 900,
+          "w": 198,
+          "h": 124,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:592"]
+          }
+        },
+        {
+          "name": "Button5",
+          "x": 1184,
+          "y": 479,
+          "w": 195,
+          "h": 121,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:678"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:678",
+      "name": "payment-physical",
+      "width": 1401,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button8",
+          "x": 1203,
+          "y": 917,
+          "w": 198,
+          "h": 124,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:645"]
+          }
+        },
+        {
+          "name": "Button7",
+          "x": 1377,
+          "y": 503,
+          "w": 26,
+          "h": 390,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:1086"]
+          }
+        },
+        {
+          "name": "Button6",
+          "x": 1377,
+          "y": 503,
+          "w": 26,
+          "h": 390,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:1086"]
+          }
+        },
+        {
+          "name": "Button5",
+          "x": 1377,
+          "y": 503,
+          "w": 26,
+          "h": 390,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:1086"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:1086",
+      "name": "card-physical",
+      "width": 1401,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button8",
+          "x": 1203,
+          "y": 917,
+          "w": 198,
+          "h": 124,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:645"]
+          }
+        },
+        {
+          "name": "CardScanner",
+          "x": 398,
+          "y": 438,
+          "w": 641,
+          "h": 162,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:778"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:778",
+      "name": "charge-physical",
+      "width": 1401,
+      "height": 1038,
+      "hotspots": [
+        {
+          "name": "Button7",
+          "x": 1375,
+          "y": 502,
+          "w": 26,
+          "h": 388,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:779"]
+          }
+        },
+        {
+          "name": "Button6",
+          "x": 1375,
+          "y": 502,
+          "w": 26,
+          "h": 388,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:779"]
+          }
+        },
+        {
+          "name": "Button5",
+          "x": 1375,
+          "y": 502,
+          "w": 26,
+          "h": 388,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:779"]
+          }
+        },
+        {
+          "name": "Button8",
+          "x": 1203,
+          "y": 914,
+          "w": 198,
+          "h": 124,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:645"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:779",
+      "name": "finish-physical",
+      "width": 1401,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button1",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button2",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button3",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button4",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button5",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button6",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button7",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        },
+        {
+          "name": "Button8",
+          "x": 355,
+          "y": 422,
+          "w": 728,
+          "h": 242,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:49"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:49",
+      "name": "home-physical",
+      "width": 1415,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Button4",
+          "x": 0,
+          "y": 508,
+          "w": 95,
+          "h": 532,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:592"]
+          }
+        },
+        {
+          "name": "Button3",
+          "x": 0,
+          "y": 508,
+          "w": 95,
+          "h": 532,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:592"]
+          }
+        },
+        {
+          "name": "Button2",
+          "x": 0,
+          "y": 508,
+          "w": 95,
+          "h": 532,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:592"]
+          }
+        },
+        {
+          "name": "Button1",
+          "x": 0,
+          "y": 508,
+          "w": 95,
+          "h": 532,
+          "visible": false,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:592"]
+          }
+        }
+      ]
+    }
+  ]
+}

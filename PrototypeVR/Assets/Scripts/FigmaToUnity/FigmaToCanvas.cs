@@ -9,6 +9,7 @@ public class FigmaToCanvas : MonoBehaviour
     public ImportFigmaJSON figma;
     public Renderer mRenderer;
     public Button buttonPrefab;
+    public string imgRoot;
 
     // Store width and height of figma and Unity canvas dimensions
     private float cWidth;
@@ -56,7 +57,7 @@ public class FigmaToCanvas : MonoBehaviour
         }
 
         // set texture to Assets/figma_pictures/Test/[framename].png
-        string path = "Assets/figma_pictures/Test/" + frame.name + ".png";
+        string path = imgRoot + frame.name + ".png";
         byte[] data = System.IO.File.ReadAllBytes(path);
         Texture2D tex = new Texture2D(2, 2);
         tex.LoadImage(data);
@@ -101,8 +102,8 @@ public class FigmaToCanvas : MonoBehaviour
             button_collider.size = new Vector3(bW, bH, 1f);
             button_collider.center = new Vector3(bW / 2f, -bH / 2f, 0);
 
-
             string transitionID = hotspot.transition.parameters[0];
+            
 
             // For each invButton, set onclick to renderframe of id of frame transition goes to
             button.onClick.AddListener(delegate { RenderFrame(transitionID); });

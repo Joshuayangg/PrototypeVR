@@ -1,0 +1,115 @@
+{
+  "startingFrame": "home-touch",
+  "frames": [
+    {
+      "id": "169:941",
+      "name": "payment-touch",
+      "width": 1363,
+      "height": 1024,
+      "hotspots": [
+        {
+          "name": "Rectangle 21",
+          "x": 7,
+          "y": 91,
+          "w": 123,
+          "h": 80,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:921"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:955",
+      "name": "map-touch",
+      "width": 1406,
+      "height": 1024,
+      "hotspots": [
+        {
+          "name": "Group 53",
+          "x": 925.2592163085938,
+          "y": 213.4779815673828,
+          "w": 464.950927734375,
+          "h": 52.06779479980469,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:1010"]
+          }
+        },
+        {
+          "name": "Group 39",
+          "x": 0,
+          "y": 80,
+          "w": 196.12203979492188,
+          "h": 104.13558959960938,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:921"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:1010",
+      "name": "line-touch",
+      "width": 1412,
+      "height": 1024,
+      "hotspots": [
+        {
+          "name": "Group 39",
+          "x": 0,
+          "y": 81.30684661865234,
+          "w": 199.73204040527344,
+          "h": 106.05241394042969,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:955"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "169:921",
+      "name": "home-touch",
+      "width": 1415,
+      "height": 1040,
+      "hotspots": [
+        {
+          "name": "Group 43",
+          "x": 145.21875,
+          "y": 246.1640625,
+          "w": 442.74090576171875,
+          "h": 743.8047485351562,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:955"]
+          }
+        },
+        {
+          "name": "Group 44",
+          "x": 832.35302734375,
+          "y": 246.1640625,
+          "w": 442.74090576171875,
+          "h": 743.8047485351562,
+          "visible": true,
+          "transition": {
+            "eventType": "ON_CLICK",
+            "actionType": "NODE",
+            "parameters": ["169:941"]
+          }
+        }
+      ]
+    }
+  ]
+}
